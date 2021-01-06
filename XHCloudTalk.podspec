@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   #s.tvos.deployment_target = '10.0'
   #s.watchos.deployment_target = '3.0'
 
-  s.swift_versions = ['5.1', '5.2', '5.3']
+  #s.swift_versions = ['5.1', '5.2', '5.3']
 
-  s.source_files = 'XHCloudTalk/*.{h,m,swift}','XHCloudTalk/Source/*.{h,m,swift}'
+  s.source_files = 'XHCloudTalk/**/*.{h,m,swift}'
 
   #s.frameworks = 'CFNetwork'
 end
