@@ -2,6 +2,7 @@ Pod::Spec.new do |s|
   s.name = 'XHCloudTalk'
   s.version = '1.0.1'
   s.license = 'MIT'
+  s.requires_arc = true
   s.summary = 'Cloud Talk on iOS'
   s.homepage = 'https://github.com/DevilLGD/XHCloudTalk'
   s.authors = { 'liaogd' => '285282227@qq.com' }
@@ -18,7 +19,8 @@ Pod::Spec.new do |s|
 
   s.swift_versions = ['5.1', '5.2', '5.3']
 
-  s.source_files = 'XHCloudTalk/*.{h,m,swift}'
+  s.source_files = 'XHCloudTalk/**/*.{swift,h,m}'
+  #s.source_files = 'XHCloudTalk/*.{h,m,swift}'
   s.subspec 'Source' do |source|
     source.source_files = 'XHCloudTalk/Source/*.{h,m,swift}'
   end
