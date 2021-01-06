@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		F53CDDA925A561B500C2ED46 /* CloudTalkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F53CDDA825A561B500C2ED46 /* CloudTalkManager.m */; };
 		F53CDDB625A5659300C2ED46 /* CloudTalkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53CDDB525A5659300C2ED46 /* CloudTalkTest.swift */; };
-		F53CDDC425A56D9600C2ED46 /* XHCloudTalkSwiftHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53CDDC325A56D9600C2ED46 /* XHCloudTalkSwiftHeader.swift */; };
+		F53CDE0525A5907E00C2ED46 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = F53CDE0325A5907E00C2ED46 /* .gitkeep */; };
+		F53CDE0925A5919500C2ED46 /* XHCloudTalkSwiftHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53CDE0825A5919500C2ED46 /* XHCloudTalkSwiftHeader.swift */; };
 		F55CA8F325A43BF7001A1F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CA8F225A43BF7001A1F03 /* AppDelegate.swift */; };
 		F55CA8F525A43BF7001A1F03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CA8F425A43BF7001A1F03 /* SceneDelegate.swift */; };
 		F55CA8F725A43BF7001A1F03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CA8F625A43BF7001A1F03 /* ViewController.swift */; };
@@ -23,8 +24,9 @@
 		F53CDDA725A561B500C2ED46 /* CloudTalkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudTalkManager.h; sourceTree = "<group>"; };
 		F53CDDA825A561B500C2ED46 /* CloudTalkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudTalkManager.m; sourceTree = "<group>"; };
 		F53CDDB525A5659300C2ED46 /* CloudTalkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudTalkTest.swift; sourceTree = "<group>"; };
-		F53CDDB825A567A500C2ED46 /* XHCloudTalk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHCloudTalk.h; sourceTree = "<group>"; };
-		F53CDDC325A56D9600C2ED46 /* XHCloudTalkSwiftHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHCloudTalkSwiftHeader.swift; sourceTree = "<group>"; };
+		F53CDE0125A5907E00C2ED46 /* XHCloudTalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCloudTalk.h; sourceTree = "<group>"; };
+		F53CDE0325A5907E00C2ED46 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F53CDE0825A5919500C2ED46 /* XHCloudTalkSwiftHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHCloudTalkSwiftHeader.swift; sourceTree = "<group>"; };
 		F55CA8EF25A43BF7001A1F03 /* XHCloudTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHCloudTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55CA8F225A43BF7001A1F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F55CA8F425A43BF7001A1F03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +58,36 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		F53CDDFE25A5907E00C2ED46 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F53CDDFF25A5907E00C2ED46 /* Classes */,
+				F53CDE0225A5907E00C2ED46 /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		F53CDDFF25A5907E00C2ED46 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F53CDE0825A5919500C2ED46 /* XHCloudTalkSwiftHeader.swift */,
+				F53CDE0125A5907E00C2ED46 /* XHCloudTalk.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F53CDE0225A5907E00C2ED46 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F53CDE0325A5907E00C2ED46 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		F55CA8E625A43BF7001A1F03 = {
 			isa = PBXGroup;
 			children = (
+				F53CDDFE25A5907E00C2ED46 /* Pod */,
 				F55CA8F125A43BF7001A1F03 /* XHCloudTalk */,
 				F55CA8F025A43BF7001A1F03 /* Products */,
 			);
@@ -84,8 +113,6 @@
 				F55CA8FB25A43BF8001A1F03 /* Assets.xcassets */,
 				F55CA8FD25A43BF8001A1F03 /* LaunchScreen.storyboard */,
 				F55CA90025A43BF8001A1F03 /* Info.plist */,
-				F53CDDB825A567A500C2ED46 /* XHCloudTalk.h */,
-				F53CDDC325A56D9600C2ED46 /* XHCloudTalkSwiftHeader.swift */,
 			);
 			path = XHCloudTalk;
 			sourceTree = "<group>";
@@ -149,6 +176,7 @@
 			files = (
 				F55CA8FF25A43BF8001A1F03 /* LaunchScreen.storyboard in Resources */,
 				F55CA8FC25A43BF8001A1F03 /* Assets.xcassets in Resources */,
+				F53CDE0525A5907E00C2ED46 /* .gitkeep in Resources */,
 				F55CA8FA25A43BF7001A1F03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,7 +192,7 @@
 				F55CA8F325A43BF7001A1F03 /* AppDelegate.swift in Sources */,
 				F53CDDB625A5659300C2ED46 /* CloudTalkTest.swift in Sources */,
 				F55CA8F525A43BF7001A1F03 /* SceneDelegate.swift in Sources */,
-				F53CDDC425A56D9600C2ED46 /* XHCloudTalkSwiftHeader.swift in Sources */,
+				F53CDE0925A5919500C2ED46 /* XHCloudTalkSwiftHeader.swift in Sources */,
 				F53CDDA925A561B500C2ED46 /* CloudTalkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
