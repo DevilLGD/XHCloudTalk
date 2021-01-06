@@ -14,11 +14,13 @@ class XHCloudTalkSwiftHeader: NSObject {
         
         CloudTalkTest().show(str: "")
         
-        XHCloudTalkSwiftHeader().show(str: "")
+        
     }
     
     public func show1(str: String) {
+        CloudTalkManager.shared()?.initCloudTalk(true, certid: "")
         
+        CloudTalkTest().show1(str: "")
     }
     
     

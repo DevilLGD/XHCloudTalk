@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.swift_versions = ['5.1', '5.2', '5.3']
 
-  s.source_files = 'XHCloudTalk/Source/*.swift', '${POD_NAME}/Classes/XHCloudTalk.h','XHCloudTalk/*.{h,m,swift}', '${POD_NAME}/Classes/XHCloudTalkSwiftHeader.swift.h'
+  s.source_files = 'XHCloudTalk/*.{h,m,swift}','XHCloudTalk/Source/*.{h,m,swift}'
 
   #s.frameworks = 'CFNetwork'
 end
