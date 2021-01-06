@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class XHTest: NSObject {
+open class XHTest: NSObject {
     open func show(str: String) {
  
         
