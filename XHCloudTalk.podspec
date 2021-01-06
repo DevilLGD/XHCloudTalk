@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/DevilLGD/XHCloudTalk.git', :tag => s.version }
   #s.documentation_url = 'https://alamofire.github.io/Alamofire/'
 
-  s.source_files = '${POD_NAME}/Classes/XHCloudTalk.h', '${POD_NAME}/Classes/XHCloudTalkSwiftHeader.swift.h'
+ 
   #s.public_header_files = 'XHCloudTalk.h'
 
   s.ios.deployment_target = '10.0'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.swift_versions = ['5.1', '5.2', '5.3']
 
-  s.source_files = 'XHCloudTalk/*.swift','XHCloudTalk/Source/*.swift'
+  s.source_files = 'XHCloudTalk/*.swift', 'XHCloudTalk/Source/*.swift','${POD_NAME}/Classes/XHCloudTalk.h', '${POD_NAME}/Classes/XHCloudTalkSwiftHeader.swift.h'
 
   #s.frameworks = 'CFNetwork'
 end
