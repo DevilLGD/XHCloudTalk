@@ -11,6 +11,7 @@
 		F53CDDB625A5659300C2ED46 /* CloudTalkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53CDDB525A5659300C2ED46 /* CloudTalkTest.swift */; };
 		F53CDE0525A5907E00C2ED46 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = F53CDE0325A5907E00C2ED46 /* .gitkeep */; };
 		F53CDE0925A5919500C2ED46 /* XHCloudTalkSwiftHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53CDE0825A5919500C2ED46 /* XHCloudTalkSwiftHeader.swift */; };
+		F53CDE5625A59A4500C2ED46 /* XHTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53CDE5525A59A4500C2ED46 /* XHTest.swift */; };
 		F55CA8F325A43BF7001A1F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CA8F225A43BF7001A1F03 /* AppDelegate.swift */; };
 		F55CA8F525A43BF7001A1F03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CA8F425A43BF7001A1F03 /* SceneDelegate.swift */; };
 		F55CA8F725A43BF7001A1F03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CA8F625A43BF7001A1F03 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		F53CDE0125A5907E00C2ED46 /* XHCloudTalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCloudTalk.h; sourceTree = "<group>"; };
 		F53CDE0325A5907E00C2ED46 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		F53CDE0825A5919500C2ED46 /* XHCloudTalkSwiftHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHCloudTalkSwiftHeader.swift; sourceTree = "<group>"; };
+		F53CDE5525A59A4500C2ED46 /* XHTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHTest.swift; sourceTree = "<group>"; };
 		F55CA8EF25A43BF7001A1F03 /* XHCloudTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHCloudTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55CA8F225A43BF7001A1F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F55CA8F425A43BF7001A1F03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				F55CA8FB25A43BF8001A1F03 /* Assets.xcassets */,
 				F55CA8FD25A43BF8001A1F03 /* LaunchScreen.storyboard */,
 				F55CA90025A43BF8001A1F03 /* Info.plist */,
+				F53CDE5525A59A4500C2ED46 /* XHTest.swift */,
 			);
 			path = XHCloudTalk;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				F53CDDB625A5659300C2ED46 /* CloudTalkTest.swift in Sources */,
 				F55CA8F525A43BF7001A1F03 /* SceneDelegate.swift in Sources */,
 				F53CDE0925A5919500C2ED46 /* XHCloudTalkSwiftHeader.swift in Sources */,
+				F53CDE5625A59A4500C2ED46 /* XHTest.swift in Sources */,
 				F53CDDA925A561B500C2ED46 /* CloudTalkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
