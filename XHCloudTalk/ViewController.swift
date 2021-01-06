@@ -13,9 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        CloudTalkManager.shared()?.initCloudTalk(true, certid: "")
-        
-        CloudTalkTest().show(str: "")
+//        CloudTalkManager.shared()?.initCloudTalk(true, certid: "")
+//        
+//        CloudTalkTest().show(str: "")
         
     }
 
