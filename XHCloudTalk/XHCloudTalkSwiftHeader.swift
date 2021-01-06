@@ -10,7 +10,11 @@ import Foundation
 class XHCloudTalkSwiftHeader: NSObject {
     
     open func show(str: String) {
+        CloudTalkManager.shared()?.initCloudTalk(true, certid: "")
         
+        CloudTalkTest().show(str: "")
+        
+        XHCloudTalkSwiftHeader().show(str: "")
     }
     
     public func show1(str: String) {
