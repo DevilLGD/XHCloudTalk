@@ -1,0 +1,16 @@
+PODS:
+  - XHCloudTalk (0.1.0)
+
+DEPENDENCIES:
+  - XHCloudTalk (from `../`)
+
+EXTERNAL SOURCES:
+  XHCloudTalk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XHCloudTalk: 581da25afdd7e9a23ad247a41583d0c36d3d37cc
+
+PODFILE CHECKSUM: 3d9fd46ca615f096a7bad82c135f5cb75fb2f83c
+
+COCOAPODS: 1.10.0
