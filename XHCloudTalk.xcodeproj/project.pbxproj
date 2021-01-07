@@ -7,40 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F53CDDA925A561B500C2ED46 /* CloudTalkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F53CDDA825A561B500C2ED46 /* CloudTalkManager.m */; };
-		F53CDDB625A5659300C2ED46 /* CloudTalkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53CDDB525A5659300C2ED46 /* CloudTalkTest.swift */; };
-		F53CDE0525A5907E00C2ED46 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = F53CDE0325A5907E00C2ED46 /* .gitkeep */; };
-		F53CDE5625A59A4500C2ED46 /* XHTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53CDE5525A59A4500C2ED46 /* XHTest.swift */; };
-		F53CDE7B25A59C0000C2ED46 /* XHCloudTalkSwiftHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53CDE7925A59C0000C2ED46 /* XHCloudTalkSwiftHeader.swift */; };
-		F55CA8F325A43BF7001A1F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CA8F225A43BF7001A1F03 /* AppDelegate.swift */; };
-		F55CA8F525A43BF7001A1F03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CA8F425A43BF7001A1F03 /* SceneDelegate.swift */; };
-		F55CA8F725A43BF7001A1F03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55CA8F625A43BF7001A1F03 /* ViewController.swift */; };
-		F55CA8FA25A43BF7001A1F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55CA8F825A43BF7001A1F03 /* Main.storyboard */; };
-		F55CA8FC25A43BF8001A1F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55CA8FB25A43BF8001A1F03 /* Assets.xcassets */; };
-		F55CA8FF25A43BF8001A1F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55CA8FD25A43BF8001A1F03 /* LaunchScreen.storyboard */; };
+		F539C2F725A6905E00768828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C2F625A6905E00768828 /* AppDelegate.m */; };
+		F539C2FA25A6905E00768828 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C2F925A6905E00768828 /* SceneDelegate.m */; };
+		F539C2FD25A6905E00768828 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C2FC25A6905E00768828 /* ViewController.m */; };
+		F539C30025A6905E00768828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F539C2FE25A6905E00768828 /* Main.storyboard */; };
+		F539C30225A6905F00768828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F539C30125A6905F00768828 /* Assets.xcassets */; };
+		F539C30525A6905F00768828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F539C30325A6905F00768828 /* LaunchScreen.storyboard */; };
+		F539C30825A6905F00768828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C30725A6905F00768828 /* main.m */; };
+		F539C32925A694B700768828 /* SwiftTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C32825A694B700768828 /* SwiftTestVC.swift */; };
+		F539C35125A69AB900768828 /* EvernoteTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C34F25A69AB900768828 /* EvernoteTestVC.m */; };
+		F539C35225A69AB900768828 /* EvernoteTestSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C35025A69AB900768828 /* EvernoteTestSwiftVC.swift */; };
+		F539C35625A69ACD00768828 /* PrivateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C35525A69ACD00768828 /* PrivateTest.m */; };
+		F539C35925A69AE500768828 /* PrivateTestSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C35825A69AE500768828 /* PrivateTestSwiftVC.swift */; };
+		F539C35D25A69B0A00768828 /* CloudTalk.m in Sources */ = {isa = PBXBuildFile; fileRef = F539C35C25A69B0A00768828 /* CloudTalk.m */; };
+		F539C36825A69C9700768828 /* SwiftTestTwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F539C36725A69C9700768828 /* SwiftTestTwoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F53CDDA525A561B500C2ED46 /* CloudTalkHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudTalkHeader.h; sourceTree = "<group>"; };
-		F53CDDA725A561B500C2ED46 /* CloudTalkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudTalkManager.h; sourceTree = "<group>"; };
-		F53CDDA825A561B500C2ED46 /* CloudTalkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudTalkManager.m; sourceTree = "<group>"; };
-		F53CDDB525A5659300C2ED46 /* CloudTalkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudTalkTest.swift; sourceTree = "<group>"; };
-		F53CDE0325A5907E00C2ED46 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		F53CDE5525A59A4500C2ED46 /* XHTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHTest.swift; sourceTree = "<group>"; };
-		F53CDE7925A59C0000C2ED46 /* XHCloudTalkSwiftHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XHCloudTalkSwiftHeader.swift; sourceTree = "<group>"; };
-		F53CDE7A25A59C0000C2ED46 /* XHCloudTalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCloudTalk.h; sourceTree = "<group>"; };
-		F55CA8EF25A43BF7001A1F03 /* XHCloudTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHCloudTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F55CA8F225A43BF7001A1F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F55CA8F425A43BF7001A1F03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F55CA8F625A43BF7001A1F03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F55CA8F925A43BF7001A1F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F55CA8FB25A43BF8001A1F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F55CA8FE25A43BF8001A1F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F55CA90025A43BF8001A1F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F539C2F225A6905E00768828 /* XHCloudTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHCloudTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F539C2F525A6905E00768828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F539C2F625A6905E00768828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F539C2F825A6905E00768828 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F539C2F925A6905E00768828 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F539C2FB25A6905E00768828 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F539C2FC25A6905E00768828 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F539C2FF25A6905E00768828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F539C30125A6905F00768828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F539C30425A6905F00768828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F539C30625A6905F00768828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F539C30725A6905F00768828 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F539C32825A694B700768828 /* SwiftTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestVC.swift; sourceTree = "<group>"; };
+		F539C34D25A69AB900768828 /* EvernoteTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteTestVC.h; sourceTree = "<group>"; };
+		F539C34E25A69AB900768828 /* XHCloudTalk-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XHCloudTalk-Bridging-Header.h"; sourceTree = "<group>"; };
+		F539C34F25A69AB900768828 /* EvernoteTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteTestVC.m; sourceTree = "<group>"; };
+		F539C35025A69AB900768828 /* EvernoteTestSwiftVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvernoteTestSwiftVC.swift; sourceTree = "<group>"; };
+		F539C35425A69ACD00768828 /* PrivateTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivateTest.h; sourceTree = "<group>"; };
+		F539C35525A69ACD00768828 /* PrivateTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivateTest.m; sourceTree = "<group>"; };
+		F539C35825A69AE500768828 /* PrivateTestSwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateTestSwiftVC.swift; sourceTree = "<group>"; };
+		F539C35B25A69B0A00768828 /* CloudTalk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudTalk.h; sourceTree = "<group>"; };
+		F539C35C25A69B0A00768828 /* CloudTalk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudTalk.m; sourceTree = "<group>"; };
+		F539C36725A69C9700768828 /* SwiftTestTwoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestTwoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F55CA8EC25A43BF7001A1F03 /* Frameworks */ = {
+		F539C2EF25A6905E00768828 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,86 +60,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F53CDDA625A561B500C2ED46 /* Source */ = {
+		F539C2E925A6905E00768828 = {
 			isa = PBXGroup;
 			children = (
-				F53CDDA725A561B500C2ED46 /* CloudTalkManager.h */,
-				F53CDDA825A561B500C2ED46 /* CloudTalkManager.m */,
-				F53CDDB525A5659300C2ED46 /* CloudTalkTest.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		F53CDDFE25A5907E00C2ED46 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F53CDDFF25A5907E00C2ED46 /* Classes */,
-				F53CDE0225A5907E00C2ED46 /* Assets */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		F53CDDFF25A5907E00C2ED46 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		F53CDE0225A5907E00C2ED46 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				F53CDE0325A5907E00C2ED46 /* .gitkeep */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		F55CA8E625A43BF7001A1F03 = {
-			isa = PBXGroup;
-			children = (
-				F53CDDFE25A5907E00C2ED46 /* Pod */,
-				F55CA8F125A43BF7001A1F03 /* XHCloudTalk */,
-				F55CA8F025A43BF7001A1F03 /* Products */,
+				F539C2F425A6905E00768828 /* XHCloudTalk */,
+				F539C2F325A6905E00768828 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F55CA8F025A43BF7001A1F03 /* Products */ = {
+		F539C2F325A6905E00768828 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F55CA8EF25A43BF7001A1F03 /* XHCloudTalk.app */,
+				F539C2F225A6905E00768828 /* XHCloudTalk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F55CA8F125A43BF7001A1F03 /* XHCloudTalk */ = {
+		F539C2F425A6905E00768828 /* XHCloudTalk */ = {
 			isa = PBXGroup;
 			children = (
-				F53CDE7A25A59C0000C2ED46 /* XHCloudTalk.h */,
-				F53CDE7925A59C0000C2ED46 /* XHCloudTalkSwiftHeader.swift */,
-				F53CDDA525A561B500C2ED46 /* CloudTalkHeader.h */,
-				F53CDDA625A561B500C2ED46 /* Source */,
-				F55CA8F225A43BF7001A1F03 /* AppDelegate.swift */,
-				F55CA8F425A43BF7001A1F03 /* SceneDelegate.swift */,
-				F55CA8F625A43BF7001A1F03 /* ViewController.swift */,
-				F55CA8F825A43BF7001A1F03 /* Main.storyboard */,
-				F55CA8FB25A43BF8001A1F03 /* Assets.xcassets */,
-				F55CA8FD25A43BF8001A1F03 /* LaunchScreen.storyboard */,
-				F55CA90025A43BF8001A1F03 /* Info.plist */,
-				F53CDE5525A59A4500C2ED46 /* XHTest.swift */,
+				F539C34C25A69AB900768828 /* Core */,
+				F539C34B25A69AB900768828 /* Private */,
+				F539C2F525A6905E00768828 /* AppDelegate.h */,
+				F539C2F625A6905E00768828 /* AppDelegate.m */,
+				F539C2F825A6905E00768828 /* SceneDelegate.h */,
+				F539C2F925A6905E00768828 /* SceneDelegate.m */,
+				F539C2FB25A6905E00768828 /* ViewController.h */,
+				F539C2FC25A6905E00768828 /* ViewController.m */,
+				F539C2FE25A6905E00768828 /* Main.storyboard */,
+				F539C30125A6905F00768828 /* Assets.xcassets */,
+				F539C30325A6905F00768828 /* LaunchScreen.storyboard */,
+				F539C30625A6905F00768828 /* Info.plist */,
+				F539C30725A6905F00768828 /* main.m */,
+				F539C32825A694B700768828 /* SwiftTestVC.swift */,
+				F539C35B25A69B0A00768828 /* CloudTalk.h */,
+				F539C35C25A69B0A00768828 /* CloudTalk.m */,
+				F539C36725A69C9700768828 /* SwiftTestTwoVC.swift */,
 			);
 			path = XHCloudTalk;
+			sourceTree = "<group>";
+		};
+		F539C34B25A69AB900768828 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				F539C35425A69ACD00768828 /* PrivateTest.h */,
+				F539C35525A69ACD00768828 /* PrivateTest.m */,
+				F539C35825A69AE500768828 /* PrivateTestSwiftVC.swift */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		F539C34C25A69AB900768828 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F539C34D25A69AB900768828 /* EvernoteTestVC.h */,
+				F539C34E25A69AB900768828 /* XHCloudTalk-Bridging-Header.h */,
+				F539C34F25A69AB900768828 /* EvernoteTestVC.m */,
+				F539C35025A69AB900768828 /* EvernoteTestSwiftVC.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F55CA8EE25A43BF7001A1F03 /* XHCloudTalk */ = {
+		F539C2F125A6905E00768828 /* XHCloudTalk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F55CA90325A43BF8001A1F03 /* Build configuration list for PBXNativeTarget "XHCloudTalk" */;
+			buildConfigurationList = F539C30B25A6905F00768828 /* Build configuration list for PBXNativeTarget "XHCloudTalk" */;
 			buildPhases = (
-				F55CA8EB25A43BF7001A1F03 /* Sources */,
-				F55CA8EC25A43BF7001A1F03 /* Frameworks */,
-				F55CA8ED25A43BF7001A1F03 /* Resources */,
+				F539C2EE25A6905E00768828 /* Sources */,
+				F539C2EF25A6905E00768828 /* Frameworks */,
+				F539C2F025A6905E00768828 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -137,24 +138,24 @@
 			);
 			name = XHCloudTalk;
 			productName = XHCloudTalk;
-			productReference = F55CA8EF25A43BF7001A1F03 /* XHCloudTalk.app */;
+			productReference = F539C2F225A6905E00768828 /* XHCloudTalk.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F55CA8E725A43BF7001A1F03 /* Project object */ = {
+		F539C2EA25A6905E00768828 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					F55CA8EE25A43BF7001A1F03 = {
+					F539C2F125A6905E00768828 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
-			buildConfigurationList = F55CA8EA25A43BF7001A1F03 /* Build configuration list for PBXProject "XHCloudTalk" */;
+			buildConfigurationList = F539C2ED25A6905E00768828 /* Build configuration list for PBXProject "XHCloudTalk" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -162,60 +163,63 @@
 				en,
 				Base,
 			);
-			mainGroup = F55CA8E625A43BF7001A1F03;
-			productRefGroup = F55CA8F025A43BF7001A1F03 /* Products */;
+			mainGroup = F539C2E925A6905E00768828;
+			productRefGroup = F539C2F325A6905E00768828 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F55CA8EE25A43BF7001A1F03 /* XHCloudTalk */,
+				F539C2F125A6905E00768828 /* XHCloudTalk */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F55CA8ED25A43BF7001A1F03 /* Resources */ = {
+		F539C2F025A6905E00768828 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F55CA8FF25A43BF8001A1F03 /* LaunchScreen.storyboard in Resources */,
-				F55CA8FC25A43BF8001A1F03 /* Assets.xcassets in Resources */,
-				F53CDE0525A5907E00C2ED46 /* .gitkeep in Resources */,
-				F55CA8FA25A43BF7001A1F03 /* Main.storyboard in Resources */,
+				F539C30525A6905F00768828 /* LaunchScreen.storyboard in Resources */,
+				F539C30225A6905F00768828 /* Assets.xcassets in Resources */,
+				F539C30025A6905E00768828 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F55CA8EB25A43BF7001A1F03 /* Sources */ = {
+		F539C2EE25A6905E00768828 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F55CA8F725A43BF7001A1F03 /* ViewController.swift in Sources */,
-				F55CA8F325A43BF7001A1F03 /* AppDelegate.swift in Sources */,
-				F53CDE7B25A59C0000C2ED46 /* XHCloudTalkSwiftHeader.swift in Sources */,
-				F53CDDB625A5659300C2ED46 /* CloudTalkTest.swift in Sources */,
-				F55CA8F525A43BF7001A1F03 /* SceneDelegate.swift in Sources */,
-				F53CDE5625A59A4500C2ED46 /* XHTest.swift in Sources */,
-				F53CDDA925A561B500C2ED46 /* CloudTalkManager.m in Sources */,
+				F539C32925A694B700768828 /* SwiftTestVC.swift in Sources */,
+				F539C35D25A69B0A00768828 /* CloudTalk.m in Sources */,
+				F539C2FD25A6905E00768828 /* ViewController.m in Sources */,
+				F539C36825A69C9700768828 /* SwiftTestTwoVC.swift in Sources */,
+				F539C35225A69AB900768828 /* EvernoteTestSwiftVC.swift in Sources */,
+				F539C35625A69ACD00768828 /* PrivateTest.m in Sources */,
+				F539C2F725A6905E00768828 /* AppDelegate.m in Sources */,
+				F539C30825A6905F00768828 /* main.m in Sources */,
+				F539C35925A69AE500768828 /* PrivateTestSwiftVC.swift in Sources */,
+				F539C35125A69AB900768828 /* EvernoteTestVC.m in Sources */,
+				F539C2FA25A6905E00768828 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F55CA8F825A43BF7001A1F03 /* Main.storyboard */ = {
+		F539C2FE25A6905E00768828 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F55CA8F925A43BF7001A1F03 /* Base */,
+				F539C2FF25A6905E00768828 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F55CA8FD25A43BF8001A1F03 /* LaunchScreen.storyboard */ = {
+		F539C30325A6905F00768828 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F55CA8FE25A43BF8001A1F03 /* Base */,
+				F539C30425A6905F00768828 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -223,7 +227,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F55CA90125A43BF8001A1F03 /* Debug */ = {
+		F539C30925A6905F00768828 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,12 +283,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		F55CA90225A43BF8001A1F03 /* Release */ = {
+		F539C30A25A6905F00768828 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,51 +335,48 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F55CA90425A43BF8001A1F03 /* Debug */ = {
+		F539C30C25A6905F00768828 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F365L3VZ9S;
+				DEVELOPMENT_TEAM = L4285ALH3W;
 				INFOPLIST_FILE = XHCloudTalk/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.XHCloudTalk.XHCloudTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = XHCloudTalk/CloudTalkHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "XHCloudTalk/Evernote/XHCloudTalk-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F55CA90525A43BF8001A1F03 /* Release */ = {
+		F539C30D25A6905F00768828 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F365L3VZ9S;
+				DEVELOPMENT_TEAM = L4285ALH3W;
 				INFOPLIST_FILE = XHCloudTalk/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.XHCloudTalk.XHCloudTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = XHCloudTalk/CloudTalkHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "XHCloudTalk/Evernote/XHCloudTalk-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,25 +385,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F55CA8EA25A43BF7001A1F03 /* Build configuration list for PBXProject "XHCloudTalk" */ = {
+		F539C2ED25A6905E00768828 /* Build configuration list for PBXProject "XHCloudTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F55CA90125A43BF8001A1F03 /* Debug */,
-				F55CA90225A43BF8001A1F03 /* Release */,
+				F539C30925A6905F00768828 /* Debug */,
+				F539C30A25A6905F00768828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F55CA90325A43BF8001A1F03 /* Build configuration list for PBXNativeTarget "XHCloudTalk" */ = {
+		F539C30B25A6905F00768828 /* Build configuration list for PBXNativeTarget "XHCloudTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F55CA90425A43BF8001A1F03 /* Debug */,
-				F55CA90525A43BF8001A1F03 /* Release */,
+				F539C30C25A6905F00768828 /* Debug */,
+				F539C30D25A6905F00768828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F55CA8E725A43BF7001A1F03 /* Project object */;
+	rootObject = F539C2EA25A6905E00768828 /* Project object */;
 }

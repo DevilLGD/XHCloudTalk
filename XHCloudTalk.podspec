@@ -1,28 +1,40 @@
 Pod::Spec.new do |s|
   s.name = 'XHCloudTalk'
   s.version = '1.0.1'
+
+  s.osx.deployment_target = '10.11'
+  s.ios.deployment_target = '9.0'
+  s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '2.0'
+
   s.license = 'MIT'
-  s.requires_arc = true
-  s.summary = 'Cloud Talk on iOS'
+  s.summary = 'Asynchronous image downloader with cache support with an UIImageView category.'
   s.homepage = 'https://github.com/DevilLGD/XHCloudTalk'
-  s.authors = { 'liaogd' => '285282227@qq.com' }
-  s.source = { :git => 'https://github.com/DevilLGD/XHCloudTalk.git', :tag => s.version }
-  #s.documentation_url = 'https://alamofire.github.io/Alamofire/'
+  s.author = { 'liaogd' => '285282227@qq.com' }
+  s.source = { :git => 'https://github.com/DevilLGD/XHCloudTalk.git', :tag => s.version.to_s }
 
- 
-  #s.public_header_files = 'XHCloudTalk.h'
+  s.description = 'This library provides a category for UIImageView with support for remote '      \
+                  'images coming from the web. It provides an UIImageView category adding web '    \
+                  'image and cache management to the Cocoa Touch framework, an asynchronous '      \
+                  'image downloader, an asynchronous memory + disk image caching with automatic '  \
+                  'cache expiration handling, a guarantee that the same URL won\'t be downloaded ' \
+                  'several times, a guarantee that bogus URLs won\'t be retried again and again, ' \
+                  'and performances!'
 
-  s.ios.deployment_target = '10.0'
-  #s.osx.deployment_target = '10.12'
-  #s.tvos.deployment_target = '10.0'
-  #s.watchos.deployment_target = '3.0'
+  s.requires_arc = true
+  #s.framework = 'ImageIO'
+  
+  s.default_subspec = 'Core'
 
-  s.swift_versions = ['5.1', '5.2', '5.3']
+  s.pod_target_xcconfig = {
+    'SUPPORTS_MACCATALYST' => 'YES',
+    'DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER' => 'NO'
+  }
 
-  s.source_files = 'XHCloudTalk/*.{h,m,swift}'
-  s.subspec 'Source' do |source|
-    source.source_files = 'XHCloudTalk/Source/*.{h,m,swift}'
+  s.subspec 'Core' do |core|
+    core.source_files = 'XHCloudTalk/Core/*.{h,m}', 'XHCloudTalk/CloudTalk.h', 'XHCloudTalk/Private/*.{h,m}'
+    core.private_header_files = 'XHCloudTalk/Private/*.h'
   end
 
-  #s.frameworks = 'CFNetwork'
+
 end
