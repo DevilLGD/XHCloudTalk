@@ -62,10 +62,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9122B87F4C4620DC791C6EF5 /* Pods-XHCloudTalk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHCloudTalk_Example.debug.xcconfig"; path = "Target Support Files/Pods-XHCloudTalk_Example/Pods-XHCloudTalk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C8685A9C90016E3F4C84F90F /* Pods-XHCloudTalk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHCloudTalk_Tests.release.xcconfig"; path = "Target Support Files/Pods-XHCloudTalk_Tests/Pods-XHCloudTalk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CD33C16A6DBCF74368069AFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CD33C16A6DBCF74368069AFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D8A6B10C214695780753EA7C /* Pods_XHCloudTalk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHCloudTalk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3F1E3B92976B70FE38CF98C /* XHCloudTalk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XHCloudTalk.podspec; path = ../XHCloudTalk.podspec; sourceTree = "<group>"; };
-		E694A65D43DBD749A562A230 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E3F1E3B92976B70FE38CF98C /* XHCloudTalk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XHCloudTalk.podspec; path = ../XHCloudTalk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E694A65D43DBD749A562A230 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ED7CD329D05F34DFE297F23E /* Pods-XHCloudTalk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHCloudTalk_Example.release.xcconfig"; path = "Target Support Files/Pods-XHCloudTalk_Example/Pods-XHCloudTalk_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				44068DDE1A90CEF7F1660ADB /* Pods-XHCloudTalk_Tests.debug.xcconfig */,
 				C8685A9C90016E3F4C84F90F /* Pods-XHCloudTalk_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
