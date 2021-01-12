@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   #s.source_files = 'XHCloudTalk/**/*.{h,m}'
-  s.source_files = 'XHCloudTalk/CloudTalkHeader.h'
+  s.source_files = 'Classes/CloudTalkHeader.h'
   
   s.swift_versions = ['5.1', '5.2', '5.3']
   
