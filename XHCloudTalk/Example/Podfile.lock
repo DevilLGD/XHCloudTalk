@@ -1,5 +1,19 @@
 PODS:
-  - XHCloudTalk (0.1.0)
+  - XHCloudTalk (1.0.5):
+    - XHCloudTalk/Core (= 1.0.5)
+    - XHCloudTalk/Private (= 1.0.5)
+    - XHCloudTalk/Util (= 1.0.5)
+  - XHCloudTalk/Core (1.0.5):
+    - XHCloudTalk/Core/Model (= 1.0.5)
+    - XHCloudTalk/Core/SubCore (= 1.0.5)
+  - XHCloudTalk/Core/Model (1.0.5)
+  - XHCloudTalk/Core/SubCore (1.0.5)
+  - XHCloudTalk/Private (1.0.5):
+    - XHCloudTalk/Private/SubPrivate (= 1.0.5)
+  - XHCloudTalk/Private/SubPrivate (1.0.5)
+  - XHCloudTalk/Util (1.0.5):
+    - XHCloudTalk/Util/SubUtil (= 1.0.5)
+  - XHCloudTalk/Util/SubUtil (1.0.5)
 
 DEPENDENCIES:
   - XHCloudTalk (from `../`)
@@ -9,7 +23,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XHCloudTalk: 581da25afdd7e9a23ad247a41583d0c36d3d37cc
+  XHCloudTalk: 7b501e5643a423e52cac8dfb84a8e7eade7338dc
 
 PODFILE CHECKSUM: 3d9fd46ca615f096a7bad82c135f5cb75fb2f83c
 
