@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "285282227@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = L4285ALH3W;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 9122B87F4C4620DC791C6EF5 /* Pods-XHCloudTalk_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L4285ALH3W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHCloudTalk/XHCloudTalk-Prefix.pch";
 				INFOPLIST_FILE = "XHCloudTalk/XHCloudTalk-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = ED7CD329D05F34DFE297F23E /* Pods-XHCloudTalk_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L4285ALH3W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHCloudTalk/XHCloudTalk-Prefix.pch";
 				INFOPLIST_FILE = "XHCloudTalk/XHCloudTalk-Info.plist";
