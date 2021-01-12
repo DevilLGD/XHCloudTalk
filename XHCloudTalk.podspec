@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHCloudTalk'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'A XHCloudTalk'
 
 # This description is used to generate tags and improve search results.
@@ -30,36 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  #s.source_files = 'XHCloudTalk/Classes/CloudTalkHeader.h'
-  
+  s.source_files = 'XHCloudTalk/**/*.{h,m}'
 
-      s.subspec 'Core' do |core|
-          core.source_files = 'XHCloudTalk/Classes/Core/*.{h,m,swift}'
-          core.subspec 'SubCore' do |subCore|
-              subCore.source_files = 'XHCloudTalk/Classes/Core/SubCore/*.{h,m,swift}'
-          end
-      end
-      
-      s.subspec 'Private' do |private|
-          private.source_files = 'XHCloudTalk/Classes/Private/*.{h,m,swift}'
-          private.subspec 'SubPrivate' do |subPrivate|
-              subPrivate.source_files = 'XHCloudTalk/Classes/Private/SubPrivate/*.{h,m,swift}'
-          end
-      end
-      
-      
-      s.subspec 'Util' do |util|
-          util.source_files = 'XHCloudTalk/Classes/Util/*.{h,m,swift}'
-          util.subspec 'SubUtil' do |subUtil|
-              subUtil.source_files = 'XHCloudTalk/Classes/Util/SubUtil/*.{h,m,swift}'
-          end
-      end
-      
- 
-  
-  
-  
-  
   
   s.swift_versions = ['5.1', '5.2', '5.3']
   
