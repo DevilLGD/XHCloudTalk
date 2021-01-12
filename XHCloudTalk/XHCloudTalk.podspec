@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHCloudTalk'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'A XHCloudTalk'
 
 # This description is used to generate tags and improve search results.
@@ -41,17 +41,17 @@ TODO: Add long description of the pod here.
       end
       
       s.subspec 'Private' do |private|
-          private.source_files = 'XHCloudTalk/Classes/Private/**/*'
+          private.source_files = 'XHCloudTalk/Classes/Private/*.{h,m,swift}'
           private.subspec 'SubPrivate' do |subPrivate|
-              subPrivate.source_files = 'XHCloudTalk/Classes/Private/SubPrivate/**/*'
+              subPrivate.source_files = 'XHCloudTalk/Classes/Private/SubPrivate/*.{h,m,swift}'
           end
       end
       
       
       s.subspec 'Util' do |util|
-          util.source_files = 'XHCloudTalk/Classes/Util/**/*.{h,m,swift}'
+          util.source_files = 'XHCloudTalk/Classes/Util/*.{h,m,swift}'
           util.subspec 'SubUtil' do |subUtil|
-              subUtil.source_files = 'XHCloudTalk/Classes/Util/SubUtil/**/*.{h,m,swift}'
+              subUtil.source_files = 'XHCloudTalk/Classes/Util/SubUtil/*.{h,m,swift}'
           end
       end
       
