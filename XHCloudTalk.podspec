@@ -28,10 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/DevilLGD/CloudTalk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '19.0'
+  s.ios.deployment_target = '9.0'
 
   #s.source_files = 'XHCloudTalk/**/*.{h,m}'
-  s.source_files = 'XHCloudTalk/Classes/CloudTalkHeader.h'
+  s.source_files = 'XHCloudTalk/CloudTalkHeader.h'
   
   s.swift_versions = ['5.1', '5.2', '5.3']
   
